@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Sir Special Form</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="username">Username :</label>
+        <input type="text" id="username" placeholder="Enter your username" name="username" required>
+        <br>
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" name="passwordpassword" id="password" placeholder="Enter your password">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label for="gmail">Enter your Gmail:</label>
+        <input type="email" name="gmail" id="gmail">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" id="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="hobbies">Your hobbies:</label>
+        <input type="checkbox" name="hobbies" id="cricket">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" name="hobbies" id="Reading" checked>
+        <label for="Reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="Badminton">
+        <label for="Badminton">Badminton</label>
+        <br><br>
+        <label for="country">Please Select Your country :</label>
+        <select name="country" id="country">
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="srilanka">Srilanka</option>
+            <option value="india">India</option>
+        </select>
+        <br><br>
+        <label for="adress">Enter your address :</label>
+        <textarea name="adress" id="adress" rows="5" cols="100" placeholder="Enter your address"></textarea>
+        <br><br>
+        <label for="file">Upload your image:</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range" min="10" max="100" step="1">
+        <br><br>
+        <label for="colour">Colour:</label>
+        <input type="color" name="colour" id="colour">
+        <br><br>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <label for="youtube">Search on youtube :</label>
+        <input type="text" name="search_query" id="youtube">
+        <button>Submit</button>
+    </form>
+    <br><br>
+    <hr>
+    <form action="https://www.bing.com/search">
+        <label for="google">Search on Google:</label>
+        <input type="text" name="q" id="google">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
